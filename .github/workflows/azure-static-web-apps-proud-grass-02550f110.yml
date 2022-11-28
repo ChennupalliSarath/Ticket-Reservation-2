@@ -57,6 +57,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'BUs1'
+          app-name: 'busticketwidget'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E487ECB63F864C1080C6B3788054942A }}
